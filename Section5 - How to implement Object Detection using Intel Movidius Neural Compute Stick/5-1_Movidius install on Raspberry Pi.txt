@@ -44,8 +44,10 @@ sudo make install
 sudo apt install libjasper1 libcanberra-gtk0
 git clone -b ncsdk2 https://github.com/movidius/ncappzoo
 cd ncappzoo/apps/hello_ncs_py
+python3 hello_ncs_py
+#  NCS Device working.
 
-
+cd ~/ncsdk
 sudo ./install-opencv.sh
 
 
