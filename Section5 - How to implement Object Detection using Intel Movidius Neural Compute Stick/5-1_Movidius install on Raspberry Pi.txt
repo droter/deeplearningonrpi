@@ -35,6 +35,10 @@ wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v1.4.0/ten
 sudo pip3 install tensorflow-1.4.0-cp35-none-linux_armv7l.whl
 rm tensorflow-1.4.0-cp35-none-linux_armv7l.whl
 sudo nano install-opencv.sh
+# Change line 55
+# VERSION="3.3.0"
+# to VERSION="3.4.2"
+
 sudo make install
 
 sudo apt install libjasper1 libcanberra-gtk0
