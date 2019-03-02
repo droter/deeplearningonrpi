@@ -34,6 +34,15 @@ sudo pip3 uninstall tensorflow
 wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v1.4.0/tensorflow-1.4.0-cp35-none-linux_armv7l.whl
 sudo pip3 install tensorflow-1.4.0-cp35-none-linux_armv7l.whl
 rm tensorflow-1.4.0-cp35-none-linux_armv7l.whl
+
+nano ncsdk.conf
+
+	#MAKE_NJOBS=1
+	¡
+	MAKE_NJOBS=4
+
+
+
 sudo nano install-opencv.sh
 # Change line 55
 # VERSION="3.3.0"
